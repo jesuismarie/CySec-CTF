@@ -13,7 +13,7 @@ In the Binary section, you will explore the fascinating world of binary exploits
 **Points:** 40
 
 **Files:** 
-- [welcome-to-binaries](CTF/welcome-to-binaries)
+- [welcome-to-binaries](welcome-to-binaries)
 
 _Hint: strings are important_
 
@@ -24,15 +24,15 @@ The goal is to get a shell running locally via sending a special payload to the 
 **Points:** 125
 
 **Files:** 
-- [vuln.c](CTF/vuln.c)
-- [vuln-shellcode](CTF/vuln-shellcode)
+- [vuln.c](vuln.c)
+- [vuln-shellcode](vuln-shellcode)
 
 #### 3. One Print Statement Away...
 
 **Points:** 150
 
 **Files:** 
-- [a.out](CTF/a.out)
+- [a.out](a.out)
 
 _Hint: use gdb-pwndbg to go through the main function step-by-step_
 
@@ -43,8 +43,8 @@ The goal of the challenge is to open a shell
 **Points:** 300
 
 **Files:** 
-- [hackme](CTF/hackme)
-- [hackme.c](CTF/hackme.c)
+- [hackme](hackme)
+- [hackme.c](hackme.c)
 
 _Hint:_
 
