@@ -1,4 +1,4 @@
-# CTF Exercises Repository
+# CTF
 
 This is a collection of Capture The Flag (CTF) exercises divided into five different categories: Binary, Linux, Network, Web, and SQL Injection. These exercises are designed to provide a practical approach to learn and hone cybersecurity skills.
 
@@ -12,10 +12,10 @@ In the Binary section, you will explore the fascinating world of binary exploits
 
 **Points:** 40
 
-**Files:** 
+**Resoures:** 
 - [welcome-to-binaries](welcome-to-binaries)
 
-_Hint: strings are important_
+**_Hint:_** _strings are important_
 
 #### 2. Code in the Shell
 
@@ -23,7 +23,7 @@ The goal is to get a shell running locally via sending a special payload to the 
 
 **Points:** 125
 
-**Files:** 
+**Resoures:** 
 - [vuln.c](vuln.c)
 - [vuln-shellcode](vuln-shellcode)
 
@@ -31,10 +31,10 @@ The goal is to get a shell running locally via sending a special payload to the 
 
 **Points:** 150
 
-**Files:** 
+**Resoures:** 
 - [a.out](a.out)
 
-_Hint: use gdb-pwndbg to go through the main function step-by-step_
+**_Hint:_** _use gdb-pwndbg to go through the main function step-by-step_
 
 #### 4. Chains of Love
 
@@ -42,42 +42,105 @@ The goal of the challenge is to open a shell
 
 **Points:** 300
 
-**Files:** 
+**Resoures:** 
 - [hackme](hackme)
 - [hackme.c](hackme.c)
 
-_Hint:_
+**_Hint:_**
 
 - use the python pwntools, it will help you with this
 - google ROP chains
 
+## Linux
+
+Linux section is all about understanding and exploiting vulnerabilities in Linux-based systems. Here, you'll learn about various Linux exploits, privilege escalation techniques, kernel vulnerabilities, and much more. You will also learn about securing Linux systems to prevent these attacks. This section contains three interesting exercises. These exercises have varying difficulty levels and corresponding points that can be earned upon successful completion. 
+
+### Exercises
+
+#### 1. So you got in?
+
+To get here, complete **_So you're good at maps, huh?_**
+
+**Points:** 75
+
+**Resoures:** 4.180.25.69
+
+#### 2. Read more books
+
+To get here, complete **_So you got in?_**
+
+**Points:** 125
+
+**Resoures:** 4.180.25.69
+
+#### 3. Shadows of the past
+
+To get here, complete **_Read more books_**
+
+**Points:** 200
+
+**Resoures:** 4.180.25.69
 
 
+## Network 
 
+### Exercise
 
+In the Network section, you will learn about different network vulnerabilities and how to exploit them. This section contains one comprehensive exercise designed to give you a thorough understanding of various aspects of network security.
 
+#### So you got in?
 
+**Points:** 75
 
+**Resoures:** 4.180.25.69
 
+## Web 
 
+Welcome to the Web section, where you will delve into the realm of web vulnerabilities and exploits. This section features four stimulating exercises, each with different levels of complexity and corresponding points that can be earned upon successful completion. Each exercise comes with a resource to assist you in your journey.
 
+### Exercises
 
+#### 1. Where would the flag be?
 
-### Linux
+**Points:** 15
 
-This section is all about understanding and exploiting vulnerabilities in Linux-based systems. Here, you'll learn about various Linux exploits, privilege escalation techniques, kernel vulnerabilities, and much more. You will also learn about securing Linux systems to prevent these attacks.
+**Resource:** [http://20.13.121.68:8081/](http://20.13.121.68:8081/)
 
-### Network 
+#### 2. Natural selection
 
-In the network section, you will learn about different network vulnerabilities and how to exploit them. You'll work with various tools and techniques related to network sniffing, spoofing, MITM attacks, etc. This section also includes exercises to understand how to secure a network against these attacks.
+**Points:** 25
 
-### Web 
+**Resource:** [http://20.13.121.68:8083/](http://20.13.121.68:8083/)
 
-The web section contains exercises designed to teach you the intricacies of various web vulnerabilities, how they are exploited, and how to secure a web application against these attacks. Here, you will deal with vulnerabilities such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), Server Side Request Forgery (SSRF), and many more.
+#### 3. Insecurity through obscurity
 
-### SQL Injection
+**Points:** 25
+
+**Resource:** [http://20.13.121.68:8080/](http://20.13.121.68:8080/)
+
+#### 4. Who’s in charge here?
+
+**Points:** 35
+
+**Resource:** [http://20.13.121.68:8082](http://20.13.121.68:8082)
+
+## SQL Injection
 
 SQL Injection is one of the most common and dangerous web vulnerabilities. In this section, you will understand how to exploit SQL Injection vulnerabilities to gain unauthorized access to data. Additionally, you will also learn about various techniques to prevent SQL Injection attacks.
+
+### Exercise
+
+#### LogInjection
+
+This exercise will challenge you to exploit a SQL Injection vulnerability in a logging system. This vulnerability can potentially allow an attacker to execute arbitrary SQL commands in the underlying database.
+
+**Points:** 25
+
+**Resource:** [http://20.13.121.68:1433](http://20.13.121.68:1433)
+
+**_Hint:_** _Use SqlMap_
+
+---
 
 Remember, the knowledge you gain here is to defend systems and applications, not to exploit them maliciously. Always have explicit, legal consent before testing any system or application for vulnerabilities.
 
